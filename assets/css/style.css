@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@media(max-width: 720px){
+    .wrapper{
+        margin: 2px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgb(67, 140, 228) 0%, rgb(207, 212, 225) 90%);
+}
+.wrapper{
+    height: 100vh;
+    
+}
+.myColor{
+    background-image: linear-gradient(to right, #c59ee8 50%, #67b2f8 150%);
+
+}
+.myShadow{
+    box-shadow: 0 5px 10px #111;
+}
+.myBtn{
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%, rgba(76, 168, 230) 0%, rgba(95, 224, 153) 90%);
+}
+.myBtn:hover{
+    background-image: radial-gradient(circle farthest-corner at -3.1% -4.3%,  rgb(95, 224, 153) 0%,rgb(76, 168, 230) 90%);
+}
+.myHr{
+    height: 2px;
+    border-radius: 5px;
+}
+.myLinkBtn{
+    border-radius: 100px;
+    width: 50%;
+    border: 2px solid #fff;
+    
+}
+.nav-item {
+    font-size: 20px;
+    padding-right: 30px;
+}

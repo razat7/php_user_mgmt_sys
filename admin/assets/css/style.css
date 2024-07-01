@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@media(max-width: 720px){
+    .wrapper{
+        margin: 2px;
+    }
+}
+*{
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.admin-nav {
+    width: 190px;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #343a40;
+    transition: 0.3s all ease-in-out;
+}
+
+.admin-link{
+    background-color: #343a40;
+}
+.admin-link:hover, .nav-active{
+    background-color:#212529;
+    text-decoration: none;
+}
+.animate{
+    width: 0;
+    transition: 0.3s all ease-in-out;
+}
+.usersTable {
+    min-width: 200px;
+}
+.notesTable {
+    max-width: 850px;
+    text-align: center;
+}
+.notesTable .tr, th {
+   background-color: rgb(143, 185, 185);
+   align-self: center;
+}
